@@ -1,0 +1,29 @@
+.skillsMainBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 29%;
+    background-color: white;
+
+}
+
+.skillsChildBlock {
+    width: 75px;
+    height: 75px;
+    background-color: lightgray;
+}
+
+.skillsMainBlock span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.skillDescription {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    border: 1px solid blue;
+}

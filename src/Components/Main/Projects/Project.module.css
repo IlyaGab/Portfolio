@@ -1,0 +1,59 @@
+.projectsMainBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+
+}
+
+.projectsImageBlock {
+    height: 70%;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.projectImage {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.projectButtonBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+}
+
+.projectButtonBlock button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: gray;
+    border: none;
+}
+
+.projectsDescription {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 100%;
+    background-color: white;
+}
+
+.projectName {
+    margin: 10px 0 0 20px;
+    width: 43%;
+    font-weight: bold;
+    background-color: lightgray;
+}
+
+.projectShortDescription {
+    margin: 10px 0 0 20px;
+    width: 80%;
+    height: 70px;
+    font-weight: bold;
+    background-color: lightgray;
+}

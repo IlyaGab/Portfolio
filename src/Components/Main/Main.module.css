@@ -1,0 +1,194 @@
+.mainWrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    background-color: lightpink;
+}
+
+.mainBlock {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    width: 75%;
+    height: 50%;
+    border: 2px solid black;
+}
+
+.introduceBlock {
+    align-self: center;
+    background-color: lightgray;
+}
+
+.introduceItem {
+    display: block;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.avatarBlock {
+    width: 25%;
+    height: 100%;
+    background-color: lightgray;
+}
+
+.mainSkillsBlock {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    background-color: #cbf7f7;
+}
+
+.mainSkillsBlockChild {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 75%;
+    height: 70%;
+    border: 2px solid black;
+}
+
+.skillsDescription {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+}
+
+.skillsDescription span {
+    background-color: lightgray;
+}
+
+.mySkills {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.mainProjectsBlock {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 900px;
+    background-color: lightpink;
+}
+
+.mainProjectsBlockChild {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 75%;
+    height: 70%;
+    border: 2px solid black;
+}
+
+.projectsDescription {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+}
+
+.projectsDescription span {
+    background-color: lightgray;
+}
+
+.myProjects {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.mainRemoteJobBlock {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+
+.mainRemoteJobBlockChild{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    font-weight: bold;
+    font-size: 30px;
+    width: 75%;
+    height: 50%;
+    border: 2px solid black;
+}
+
+.mainRemoteJobBlockChild span {
+    background-color: lightgray;
+}
+
+.mainRemoteJobBlockChild button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: gray;
+    border: none;
+}
+
+.mainContactsBlock {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    background-color: lightpink;
+}
+
+.mainContactsBlockChild{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    font-weight: bold;
+    font-size: 30px;
+    width: 75%;
+    height: 80%;
+    border: 2px solid black;
+}
+
+.mainContactsBlockChild span {
+    background-color: lightgray;
+}
+
+.contactsFormBlock {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    border: 2px solid black;
+}
+.contactsFormBlock input {
+    height: 30px;
+    border: none;
+    background-color: lightgray;
+}
+
+.contactsFormBlock textarea {
+    height: 180px;
+    background-color: lightgray;
+    border: none;
+    resize: none;
+}
+
+.mainContactsBlockChild button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: gray;
+    border: none;
+}
