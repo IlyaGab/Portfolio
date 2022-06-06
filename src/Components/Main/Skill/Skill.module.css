@@ -27,3 +27,20 @@
     font-weight: bold;
     border: 1px solid blue;
 }
+
+@media (max-width: 769px){
+    .skillsMainBlock {
+        width: 250px;
+        height: 400px;
+        margin-bottom: 20px;
+    }
+
+    .skillsMainBlock span {
+        font-size: 25px;
+    }
+
+    .skillDescription {
+        font-size: 20px;
+        border: none;
+    }
+}

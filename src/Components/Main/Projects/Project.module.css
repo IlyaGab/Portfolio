@@ -4,20 +4,9 @@
     align-items: center;
     justify-content: space-between;
     width: 40%;
-
+    background: url("https://klike.net/uploads/posts/2019-11/1572861552_38.jpg");
 }
 
-.projectsImageBlock {
-    height: 70%;
-    width: 100%;
-    background-color: lightgray;
-}
-
-.projectImage {
-    position: relative;
-    top: 50px;
-    left: 50px;
-}
 
 .projectButtonBlock{
     display: flex;
@@ -56,4 +45,12 @@
     height: 70px;
     font-weight: bold;
     background-color: lightgray;
+}
+
+@media (max-width: 769px) {
+    .projectsMainBlock {
+        width: 360px;
+        height: 450px;
+        margin-bottom: 20px;
+    }
 }

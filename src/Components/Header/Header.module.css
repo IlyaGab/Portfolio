@@ -16,3 +16,15 @@
     height: 20px;
     border: 2px solid black;
 }
+
+@media (max-width:769px) {
+    .headerWrapper {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .navItems {
+        margin: 0 auto;
+        width: 90%;
+    }
+}
