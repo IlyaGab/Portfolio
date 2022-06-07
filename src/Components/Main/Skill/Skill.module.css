@@ -1,12 +1,14 @@
 .skillsMainBlock {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: 29%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-between;
+    width: 30%;
+    margin-bottom: 20px;
     background-color: white;
-
 }
+
 
 .skillsChildBlock {
     width: 75px;
@@ -14,33 +16,29 @@
     background-color: lightgray;
 }
 
-.skillsMainBlock span {
+.skillTitle {
     font-size: 30px;
     font-weight: bold;
+    text-align: center;
 }
 
 .skillDescription {
     width: 100%;
-    height: 150px;
     text-align: center;
     font-size: 23px;
     font-weight: bold;
-    border: 1px solid blue;
 }
 
 @media (max-width: 769px){
     .skillsMainBlock {
-        width: 250px;
-        height: 400px;
-        margin-bottom: 20px;
+        width: 300px;
     }
 
-    .skillsMainBlock span {
+    .skillTitle {
         font-size: 25px;
     }
 
     .skillDescription {
         font-size: 20px;
-        border: none;
     }
 }

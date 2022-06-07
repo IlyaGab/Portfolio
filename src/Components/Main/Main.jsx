@@ -25,6 +25,9 @@ const Main = () => {
                         <Skill/>
                         <Skill/>
                         <Skill/>
+                        <Skill/>
+                        <Skill/>
+                        <Skill/>
                     </div>
                 </div>
             </div>
@@ -34,6 +37,8 @@ const Main = () => {
                         <span>Мои работы</span>
                     </div>
                     <div className={classes.myProjects}>
+                        <Project/>
+                        <Project/>
                         <Project/>
                         <Project/>
                     </div>

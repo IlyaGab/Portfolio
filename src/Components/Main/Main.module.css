@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 700px;
+    min-height: 100vh;
     background-color: lightpink;
 }
 
@@ -10,9 +10,8 @@
     display: flex;
     justify-content: space-around;
     align-self: center;
-    width: 75%;
-    height: 50%;
-    border: 2px solid black;
+    width: 85%;
+    height: 50vh;
 }
 
 .introduceBlock {
@@ -21,22 +20,23 @@
 }
 
 .introduceItem {
-    display: block;
+    display: flex;
     font-weight: bold;
     font-size: 30px;
 }
 
 .avatarBlock {
-    width: 200px;
+    width: 50vh;
     height: 100%;
     background-color: lightgray;
 }
 
 .mainSkillsBlock {
     display: flex;
+    align-items: center;
     justify-content: center;
     width: 100%;
-    height: 700px;
+    min-height: 100vh;
     background-color: #cbf7f7;
 }
 
@@ -44,18 +44,16 @@
     display: flex;
     flex-direction: column;
     align-self: center;
-    width: 75%;
-    height: 70%;
-    border: 2px solid black;
+    width: 90%;
+    margin: 70px 0 70px 0;
 }
 
 .skillsDescription {
     width: 100%;
-    height: 200px;
+    margin-bottom: 60px;
     text-align: center;
     font-weight: bold;
     font-size: 30px;
-    border-bottom: 2px solid black;
 }
 
 .skillsDescription span {
@@ -64,15 +62,17 @@
 
 .mySkills {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
-    height: 100%;
+    min-height: 100vh;
 }
 
 .mainProjectsBlock {
     display: flex;
+    align-items: center;
     justify-content: center;
     width: 100%;
-    height: 900px;
+    min-height: 100vh;
     background-color: lightpink;
 }
 
@@ -80,28 +80,25 @@
     display: flex;
     flex-direction: column;
     align-self: center;
-    width: 75%;
-    height: 70%;
-    border: 2px solid black;
+    width: 90%;
+    height: 80%;
+    margin: 70px 0 70px 0;
 }
 
 .projectsDescription {
     width: 100%;
-    height: 200px;
     text-align: center;
     font-weight: bold;
     font-size: 30px;
-    border-bottom: 2px solid black;
-}
-
-.projectsDescription span {
-    background-color: lightgray;
+    margin-bottom: 60px;
 }
 
 .myProjects {
     display: flex;
-    justify-content: space-between;
-    height: 100%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .mainRemoteJobBlock {
@@ -122,12 +119,8 @@
     font-size: 30px;
     width: 75%;
     height: 50%;
-    border: 2px solid black;
 }
 
-.mainRemoteJobBlockChild span {
-    background-color: lightgray;
-}
 
 .mainRemoteJobBlockChild button {
     width: 200px;
@@ -135,7 +128,6 @@
     font-size: 20px;
     font-weight: bold;
     background-color: gray;
-    border: none;
 }
 
 .mainContactsBlock {
@@ -156,7 +148,6 @@
     font-size: 30px;
     width: 75%;
     height: 80%;
-    border: 2px solid black;
 }
 
 .mainContactsBlockChild span {
@@ -169,18 +160,15 @@
     flex-direction: column;
     width: 50%;
     height: 50%;
-    border: 2px solid black;
 }
 .contactsFormBlock input {
     height: 30px;
-    border: none;
     background-color: lightgray;
 }
 
 .contactsFormBlock textarea {
     height: 180px;
     background-color: lightgray;
-    border: none;
     resize: none;
 }
 
@@ -190,13 +178,12 @@
     font-size: 20px;
     font-weight: bold;
     background-color: gray;
-    border: none;
 }
 
 @media (max-width: 769px){
     .mainWrapper {
         width: 100%;
-        height: 500px;
+        height: 400px;
         background-color: lightpink;
     }
 
@@ -206,11 +193,10 @@
         align-items: center;
         width: 100%;
         height: 100%;
-        border: none;
     }
 
     .introduceBlock {
-        align-self: self-start;
+        align-self: flex-start;
         margin: 5px 0 0 10px;
     }
 
@@ -220,69 +206,40 @@
 
     .avatarBlock {
         width: 300px;
-        height: 300px;
-        margin-top: 20px;
+        height: 55%;
+        margin-top: 30px;
     }
 
-    .mainSkillsBlock {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: 1200px;
-    }
-
-    .mainSkillsBlockChild {
-        width: 100%;
-        height: 100%;
-        border: none;
-    }
 
     .skillsDescription {
         display: flex;
         justify-content: center;
-        align-items: center;
         width: 100%;
-        height: 150px;
+        min-height: 5vh;
+        margin-bottom: 70px;
         font-size: 25px;
-        border-bottom: none
     }
 
     .mySkills {
-        display: flex;
-        flex-direction: column;
-        justify-content:start;
-        align-items: center;
-        height: 82%;
+        justify-content:space-around;
     }
 
     .mainProjectsBlock {
         width: 100%;
-        height: 1150px;
+        min-height: 100vh;
     }
 
     .mainProjectsBlockChild {
         width: 100%;
         height: 100%;
-        border: none;
-
     }
 
     .projectsDescription {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 150px;
         font-size: 25px;
-        border-bottom: none
     }
 
     .myProjects {
-        display: flex;
-        flex-direction: column;
-        justify-content:start;
-        align-items: center;
-        height: 82%;
+       justify-content: space-around;
     }
 
     .mainRemoteJobBlock {
@@ -293,7 +250,6 @@
         justify-content: space-evenly;
         width: 100%;
         height: 100%;
-        border: none;
     }
 
     .mainRemoteJobBlockChild span {
@@ -315,7 +271,6 @@
         font-size: 25px;
         width: 100%;
         height: 100%;
-        border: none;
     }
 
 
@@ -325,7 +280,6 @@
         flex-direction: column;
         width: 360px;
         height: 270px;
-        border: none;
     }
     .contactsFormBlock input {
         margin-bottom: 10px;
