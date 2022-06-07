@@ -22,12 +22,12 @@ const Main = () => {
                         <span>Мои Скиллы</span>
                     </div>
                     <div className={classes.mySkills}>
-                        <Skill/>
-                        <Skill/>
-                        <Skill/>
-                        <Skill/>
-                        <Skill/>
-                        <Skill/>
+                        <Skill name={'HTML'}/>
+                        <Skill name={'CSS'}/>
+                        <Skill name={'JS'}/>
+                        <Skill name={'React'}/>
+                        <Skill name={'Redux'}/>
+                        <Skill name={'Material UI'}/>
                     </div>
                 </div>
             </div>
@@ -37,10 +37,10 @@ const Main = () => {
                         <span>Мои работы</span>
                     </div>
                     <div className={classes.myProjects}>
-                        <Project/>
-                        <Project/>
-                        <Project/>
-                        <Project/>
+                        <Project name={'Portfolio'}/>
+                        <Project name={'TodoList'}/>
+                        <Project name={'SocialNetwork'}/>
+                        <Project name={'Counter'}/>
                     </div>
                 </div>
             </div>

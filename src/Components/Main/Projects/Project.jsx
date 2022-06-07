@@ -1,20 +1,16 @@
 import React from 'react';
 import classes from './Project.module.css'
 
-const Project = () => {
+const Project = (props) => {
     return (
         <div className={classes.projectsMainBlock}>
-              
-                <div className={classes.projectButtonBlock}>
-                    <button>Смотреть</button>
-                  
-                </div>
-                <div className={classes.projectsDescription}>
-                <span className={classes.projectName}>Название проекта</span>
-                <span className={classes.projectShortDescription}>Краткое описание</span>
+            <div>
+                <button className={classes.projectsButton}>Смотреть</button> 
             </div>
-
-            
+            <div className={classes.projectsDescription}>
+                    <h3 className={classes.projectName}>{props.name}</h3>
+                    <span className={classes.projectShortDescription}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reiciendis debitis qui inventore delectus eligendi adipisci a, animi repellat nemo, reprehenderit corporis illo fugit dolore vel maiores eveniet velit deleniti!</span>
+                </div>
         </div>
     );
 };

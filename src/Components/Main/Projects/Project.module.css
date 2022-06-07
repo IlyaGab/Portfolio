@@ -2,22 +2,16 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    align-items:flex-end;
     width: 45%;
-    height: 80vh;
+    min-height: 100vh;
+    height: 100%;
     margin-bottom: 20px;
     background: url("https://klike.net/uploads/posts/2019-11/1572861552_38.jpg");
 }
 
 
-.projectButtonBlock{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height:60%;
-}
-
-.projectButtonBlock button {
+.projectsButton {
     width: 200px;
     height: 50px;
     font-size: 20px;
@@ -31,25 +25,22 @@
     flex-direction: column;
     align-self: flex-end;
     width: 100%;
-    min-height: 150px;
+    height: 40%;
     background-color: white;
+     text-indent: 20px;
 }
 
 .projectName {
-    margin: 10px 0 0 20px;
-    font-weight: bold;
+    margin-left: 10px;
 }
 
 .projectShortDescription {
-    margin: 10px 0 0 20px;
-    width: 80%;
-    height: 70px;
-    font-weight: bold;
-  
+    margin-left: 10px;
 }
 
 @media (max-width: 769px) {
     .projectsMainBlock {
         width: 300px;
+        height: 100%;
     }
 }
