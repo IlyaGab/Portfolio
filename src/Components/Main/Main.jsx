@@ -9,9 +9,9 @@ const Main = () => {
             <div className={classes.mainWrapper}>
                 <div className={classes.mainBlock}>
                     <div className={classes.introduceBlock}>
-                        <span className={classes.introduceItem}>Привет!</span>
-                        <span className={classes.introduceItem}>Меня зовут Илья Габ.</span>
-                        <span className={classes.introduceItem}>Я front-end разработчик</span>
+                        <span className={classes.introduceItemOne}>Hello!</span>
+                        <span className={classes.introduceItemTwo}>I'm Ilya Gab</span>
+                        <span className={classes.introduceItemThree}>Front-end Developer</span>
                     </div>
                     <div className={classes.avatarBlock}></div>
                 </div>
@@ -19,7 +19,7 @@ const Main = () => {
             <div className={classes.mainSkillsBlock}>
                 <div className={classes.mainSkillsBlockChild}>
                     <div className={classes.skillsDescription}>
-                        <span>Мои Скиллы</span>
+                        <span>My Skills</span>
                     </div>
                     <div className={classes.mySkills}>
                         <Skill name={'HTML'}/>
@@ -34,7 +34,7 @@ const Main = () => {
             <div className={classes.mainProjectsBlock}>
                 <div className={classes.mainProjectsBlockChild}>
                     <div className={classes.projectsDescription}>
-                        <span>Мои работы</span>
+                        <span>My Portfolio</span>
                     </div>
                     <div className={classes.myProjects}>
                         <Project name={'Portfolio'}/>
@@ -46,19 +46,19 @@ const Main = () => {
             </div>
             <div className={classes.mainRemoteJobBlock}>
                 <div className={classes.mainRemoteJobBlockChild}>
-                    <span>Рассматриваю варианты удаленной работы</span>
-                    <button>Нанять меня</button>
+                    <span>Looking into remote work options</span>
+                    <button>Hire me</button>
                 </div>
             </div>
             <div className={classes.mainContactsBlock}>
                 <div className={classes.mainContactsBlockChild}>
-                    <span>Контакты</span>
+                    <span>My Contacts</span>
                     <form action="" className={classes.contactsFormBlock}>
                         <input type="text" name="" id=""/>
                         <input type="text" name="" id=""/>
                         <textarea name="" id=""></textarea>
                     </form>
-                    <button>Отправить</button>
+                    <button>Send</button>
                 </div>
             </div>
         </>
