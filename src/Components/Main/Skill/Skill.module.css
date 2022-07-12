@@ -19,7 +19,7 @@
 }
 
 .skillTitle {
-    font-size: 30px;
+    font: bold 30px Poppins, sans-serif;
     font-weight: bold;
     text-align: center;
 }
@@ -27,8 +27,7 @@
 .skillDescription {
     width: 100%;
     text-align: center;
-    font-size: 23px;
-    font-weight: bold;
+    font: normal 20px Open Sans, sans-serif;
 }
 
 @media (max-width: 769px){

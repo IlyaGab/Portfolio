@@ -5,7 +5,7 @@ const Project = (props) => {
     return (
         <div className={classes.projectsMainBlock}>
             <div>
-                <button className={classes.projectsButton}>Смотреть</button> 
+                <button className={classes.projectsButton}>Watch</button> 
             </div>
             <div className={classes.projectsDescription}>
                     <h3 className={classes.projectName}>{props.name}</h3>

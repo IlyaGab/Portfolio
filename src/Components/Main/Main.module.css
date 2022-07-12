@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    min-height: 70vh;
+    min-height: 100vh;
 }
 
 .mainBlock {
@@ -108,7 +108,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    min-height: 300px;
+    min-height: 40vh;
     background-color: #ffb400;
 }
 
@@ -119,7 +119,6 @@
     align-items: center;
     align-self: center;
     font-weight: bold;
-    font-size: 30px;
     width: 75%;
     height: 50%;
 }
@@ -132,16 +131,33 @@
 .mainRemoteJobBlockChild button {
     width: 200px;
     height: 50px;
+    margin-bottom: 10px;
+    border-radius: 35px;
+    border-color: #fff;
+    color: #000;
+    cursor: pointer;
     font-size: 20px;
-    font-weight: bold;
-    background-color: gray;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .25s ease-in-out;
+}
+
+
+.mainRemoteJobBlock button:hover {
+    border-color: #ffb400;
+    background-color: #ffb400;
+    color: #fff;
 }
 
 .mainContactsBlock {
     display: flex;
     justify-content: center;
     width: 100%;
-    min-height: 100vh;
+    min-height: 50vh;
     background-color: #fff;
     margin: 70px 0 70px 0;
 }
@@ -168,23 +184,63 @@
 }
 .contactsFormBlock input {
     height: 30px;
-    background-color: lightgray;
-    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #666;
+    border: 1px solid #666;
+    border-radius: 35px;
+    margin-bottom: 30px;
+    outline: none!important;
+    overflow: hidden;
+    padding: 12px 26px;
+    transition: .3s;
+    font: normal 15px 'Open Sans', sans-serif;
 }
 
+
 .contactsFormBlock textarea {
-    height: 180px;
-    background-color: lightgray;
-    resize: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #666;
+    border: 1px solid #666;
+    border-radius: 35px;
+    height: 200px;
+    outline: none!important;
+    overflow: hidden;
+    padding: 12px 26px;
+    transition: .3s;
     margin-bottom: 60px;
+    resize: none;
+    font: normal 15px 'Open Sans', sans-serif;
+}
+
+.contactsFormBlock input:focus, .contactsFormBlock textarea:focus {
+    border: 1px solid #ffb400!important;
 }
 
 .mainContactsBlockChild button {
     width: 200px;
     height: 50px;
+    border-radius: 35px;
+    border-color: #fff;
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
     font-size: 20px;
-    font-weight: bold;
-    background-color: gray;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    
+    text-transform: uppercase;
+    transition: all .25s ease-in-out;
+}
+
+.mainContactsBlockChild button:hover {
+    border-color: #ffb400;
+    background-color: #ffb400;
+    color: #fff;
 }
 
 @media (max-width: 800px){
@@ -249,26 +305,15 @@
        justify-content: space-around;
     }
 
-    .mainRemoteJobBlock {
-        height: 500px;
-    }
 
-    .mainRemoteJobBlockChild{
-        justify-content: space-evenly;
-        width: 100%;
-        height: 100%;
-    }
 
     .mainRemoteJobBlockChild span {
-        width: 300px;
         text-align: center;
-        background: none;
     }
 
 
     .mainContactsBlockChild{
         display: flex;
-        
         font-size: 25px;
         width: 100%;
         height: 100%;
@@ -280,9 +325,7 @@
         justify-content: start;
         flex-direction: column;
         width: 360px;
-        height: 270px;
     }
     .contactsFormBlock input {
-        margin-bottom: 10px;
     }
 }
