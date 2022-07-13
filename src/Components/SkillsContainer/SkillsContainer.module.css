@@ -1,0 +1,30 @@
+.mainSkillsBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffb400;
+}
+
+.mainSkillsBlockChild {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 90%;
+    margin: 70px 0 70px 0;
+}
+
+.skillsDescription {
+    width: 100%;
+    margin-bottom: 60px;
+    text-align: center;
+    font: bold 56px Poppins, sans-serif;
+}
+
+.mySkills {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    min-height: 100vh;
+}

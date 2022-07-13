@@ -1,13 +1,11 @@
 
 .headerWrapper {
-    align-items: center;
     display: flex;
     opacity: 1;
-    position: absolute;
+    position: fixed;
     right: 30px;
     top: 50%;
     transition: opacity .3s;
-
 }
 
 .navItems {

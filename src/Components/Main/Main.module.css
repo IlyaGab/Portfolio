@@ -38,71 +38,10 @@
     background-color: lightgray;
 }
 
-.mainSkillsBlock {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    min-height: 100vh;
-    background-color: #ffb400;
-}
 
-.mainSkillsBlockChild {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    width: 90%;
-    margin: 70px 0 70px 0;
-}
 
-.skillsDescription {
-    width: 100%;
-    margin-bottom: 60px;
-    text-align: center;
-    font: bold 56px Poppins, sans-serif;
-}
 
-.mySkills {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    min-height: 100vh;
-}
 
-.mainProjectsBlock {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    min-height: 100vh;
-    background-color:#fff;
-}
-
-.mainProjectsBlockChild {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    width: 90%;
-    height: 80%;
-    margin: 70px 0 70px 0;
-}
-
-.projectsDescription {
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-    font-size: 30px;
-    margin-bottom: 60px;
-    font: bold 56px Poppins, sans-serif;
-}
-
-.myProjects {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    width: 100%;
-    min-height: 100vh;
-}
 
 .mainRemoteJobBlock {
     display: flex;
@@ -153,95 +92,7 @@
     color: #fff;
 }
 
-.mainContactsBlock {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    min-height: 50vh;
-    background-color: #fff;
-    margin: 70px 0 70px 0;
-}
 
-.mainContactsBlockChild{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-weight: bold;
-    font-size: 30px;
-    width: 75%;
-}
-
-.mainContactsBlockChild span {
-    font: bold 56px Poppins, sans-serif;
-    margin: 0 0 60px 0;
-}
-
-.contactsFormBlock {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    
-}
-.contactsFormBlock input {
-    height: 30px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    color: #666;
-    border: 1px solid #666;
-    border-radius: 35px;
-    margin-bottom: 30px;
-    outline: none!important;
-    overflow: hidden;
-    padding: 12px 26px;
-    transition: .3s;
-    font: normal 15px 'Open Sans', sans-serif;
-}
-
-
-.contactsFormBlock textarea {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    color: #666;
-    border: 1px solid #666;
-    border-radius: 35px;
-    height: 200px;
-    outline: none!important;
-    overflow: hidden;
-    padding: 12px 26px;
-    transition: .3s;
-    margin-bottom: 60px;
-    resize: none;
-    font: normal 15px 'Open Sans', sans-serif;
-}
-
-.contactsFormBlock input:focus, .contactsFormBlock textarea:focus {
-    border: 1px solid #ffb400!important;
-}
-
-.mainContactsBlockChild button {
-    width: 200px;
-    height: 50px;
-    border-radius: 35px;
-    border-color: #fff;
-    background-color: transparent;
-    color: #000;
-    cursor: pointer;
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    
-    text-transform: uppercase;
-    transition: all .25s ease-in-out;
-}
-
-.mainContactsBlockChild button:hover {
-    border-color: #ffb400;
-    background-color: #ffb400;
-    color: #fff;
-}
 
 @media (max-width: 800px){
     .mainWrapper {
@@ -325,7 +176,5 @@
         justify-content: start;
         flex-direction: column;
         width: 360px;
-    }
-    .contactsFormBlock input {
     }
 }

@@ -1,0 +1,147 @@
+.mainContactsBlock {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 50vh;
+    background-color: #fff;
+    margin: 70px 0 70px 0;
+}
+
+.mainContactsBlockChild{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    width: 75%;
+}
+
+.mainContactsBlockChild span {
+    font: bold 56px Poppins, sans-serif;
+    margin: 0 0 60px 0;
+}
+
+.contactsFormBlock {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+.contactsFormBlock input {
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #666;
+    border: 1px solid #666;
+    border-radius: 35px;
+    margin-bottom: 30px;
+    outline: none!important;
+    overflow: hidden;
+    padding: 12px 26px;
+    transition: .3s;
+    font: normal 15px 'Open Sans', sans-serif;
+}
+
+
+.contactsFormBlock textarea {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #666;
+    border: 1px solid #666;
+    border-radius: 35px;
+    height: 200px;
+    outline: none!important;
+    overflow: hidden;
+    padding: 12px 26px;
+    transition: .3s;
+    margin-bottom: 60px;
+    resize: none;
+    font: normal 15px 'Open Sans', sans-serif;
+}
+
+.contactsFormBlock input:focus, .contactsFormBlock textarea:focus {
+    border: 1px solid #ffb400!important;
+}
+
+.mainContactsBlockChild button {
+    width: 200px;
+    height: 50px;
+    border-radius: 35px;
+    border-color: #fff;
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    
+    text-transform: uppercase;
+    transition: all .25s ease-in-out;
+}
+
+.mainContactsBlockChild button:hover {
+    border-color: #ffb400;
+    background-color: #ffb400;
+    color: #fff;
+}
+
+
+.mainFooterBlock {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    background-color: lightgoldenrodyellow;
+}
+
+.footerBlockChild {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    font-weight: bold;
+    font-size: 20px;
+    width: 75%;
+    height: 60%;
+}
+
+.footerSocialNetworksBlock {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 60%;
+    height: 32%;
+}
+
+.footerSocialNetworksBlock span {
+    width: 75px;
+    height: 75px;
+}
+
+.footerBlockChild span {
+    background-color: lightgray;
+}
+
+@media(max-width: 769px) {
+    .mainFooterBlock {
+        height: 400px;
+    }
+
+    .footerBlockChild {
+        justify-content: space-evenly;
+        width: 100%;
+        height: 100%;
+    }
+
+    .footerSocialNetworksBlock {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 90%;
+        height: 20%;
+    }
+}
