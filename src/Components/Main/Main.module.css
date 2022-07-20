@@ -1,5 +1,4 @@
 
-
 .mainIcon {
     position: absolute;
     height: 51px;
@@ -17,16 +16,15 @@
     flex-direction:row;
     max-width: 600px;
     min-width: 300px;
-   
 }
 
 .colorBlock {
     height: 200%;
     left: -83%;
-    position: fixed;
+    position:fixed;
     top: -50%;
-    -webkit-transform: rotate(-15deg);
     transform: rotate(-15deg);
+    transition: none!important;
     width: 100%;
     background-color: #ffb400;
 }

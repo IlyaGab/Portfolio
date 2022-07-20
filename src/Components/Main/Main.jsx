@@ -9,7 +9,7 @@ const Main = () => {
         <>
             <div className={classes.mainWrapper}>
                     <div className={classes.mainBlock}>
-                        <div className={classes.colorBlock}></div>
+                    <div className={classes.colorBlock}></div>
                         <div className={classes.avatarBlock}></div>
                     </div>
                 
