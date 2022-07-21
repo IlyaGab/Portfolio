@@ -7,7 +7,7 @@ import classes from './Main.module.css'
 const Main = () => {
     return (
         <>
-            <div className={classes.mainWrapper}>
+            <div className={classes.mainWrapper} scrolling='no'>
                     <div className={classes.mainBlock}>
                     <div className={classes.colorBlock}></div>
                         <div className={classes.avatarBlock}></div>

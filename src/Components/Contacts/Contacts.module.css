@@ -1,5 +1,6 @@
-.mainContactsBlock {
+.contactsBlock {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
     min-height: 50vh;
@@ -7,28 +8,68 @@
     margin: 70px 0 70px 0;
 }
 
-.mainContactsBlockChild{
+.contactsBlockChild{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-weight: bold;
-    font-size: 30px;
-    width: 75%;
+    flex-direction: row;
+    width: 90%;
+    margin-left:auto;
 }
 
-.mainContactsBlockChild span {
+.contactsLeftBlock {
+width: 25%;
+}
+
+.contactsRightBlock {
+    width: 75%;
+}
+.contactsTitle {
+    font: bold 26px Poppins, sans-serif;
+    margin: 0;
+    padding: 0px 0px 16px;
+    color: #666;
+}
+
+.contactsDescription {
+    font: normal 15px Opensans, sans-serif;
+    color: #666;
+    margin: 0 0 24px;
+}
+.contactsBlockTitle{
     font: bold 56px Poppins, sans-serif;
+    text-align: center;
     margin: 0 0 60px 0;
+}
+
+.contactsMailme {
+    display: flex;
+    margin: 0 0 20px;
+    
+}
+
+.contactsIcon {
+    width: 50px;
+    height: 50px;
+}
+
+.contactsMailmeInfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font: normal 15px Opensans, sans-serif;
+    color: #666;
+    line-height: 25px;
 }
 
 .contactsFormBlock {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    
+    justify-self: center;
+    width: 66%;
+    margin: auto;
 }
 .contactsFormBlock input {
     height: 30px;
+    width: 90%;
     background-color: #fff;
     border: 1px solid #ddd;
     color: #666;
@@ -50,6 +91,7 @@
     border: 1px solid #666;
     border-radius: 35px;
     height: 200px;
+    width: 90%;
     outline: none!important;
     overflow: hidden;
     padding: 12px 26px;
@@ -63,7 +105,7 @@
     border: 1px solid #ffb400!important;
 }
 
-.mainContactsBlockChild button {
+.contactsBlockChild button {
     width: 200px;
     height: 50px;
     border-radius: 35px;
@@ -82,66 +124,33 @@
     transition: all .25s ease-in-out;
 }
 
-.mainContactsBlockChild button:hover {
+.contactsBlockChild button:hover {
     border-color: #ffb400;
     background-color: #ffb400;
     color: #fff;
 }
 
 
-.mainFooterBlock {
+.contactsSocialNetworksBlock {
     display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 400px;
-    background-color: lightgoldenrodyellow;
-}
-
-.footerBlockChild {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    align-self: center;
-    font-weight: bold;
-    font-size: 20px;
-    width: 75%;
-    height: 60%;
-}
-
-.footerSocialNetworksBlock {
-    display: flex;
-    justify-content: space-between;
     flex-direction: row;
-    width: 60%;
-    height: 32%;
+    padding: 15px 0 0 ;
+    margin: 0 0 48px -5px;
+    
 }
 
-.footerSocialNetworksBlock span {
-    width: 75px;
-    height: 75px;
+.contactsSocialNetworksBlock span {
+    width: 50px;
+    height: 50px;
+    margin: 0 6px;
+    border-radius: 50%;
+}
+.contactsSocialNetworksBlock span:hover {
+    background-color: #ffb400;
+    cursor: pointer;
 }
 
-.footerBlockChild span {
-    background-color: lightgray;
-}
 
 @media(max-width: 769px) {
-    .mainFooterBlock {
-        height: 400px;
-    }
-
-    .footerBlockChild {
-        justify-content: space-evenly;
-        width: 100%;
-        height: 100%;
-    }
-
-    .footerSocialNetworksBlock {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        width: 90%;
-        height: 20%;
-    }
+   
 }

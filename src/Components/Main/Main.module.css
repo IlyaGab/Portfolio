@@ -84,31 +84,8 @@
 }
 
 
-.mainRemoteJobBlock {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    min-height: 40vh;
-    background-color: #ffb400;
-}
 
-.mainRemoteJobBlockChild{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    align-self: center;
-    font-weight: bold;
-    width: 75%;
-    height: 50%;
-}
-
-.mainRemoteJobBlockChild span {
-    font: bold 56px Poppins, sans-serif;
-    margin: 0 0 60px 0;
-}
-
-.mainRemoteJobBlockChild button {
+/* .mainRemoteJobBlockChild button {
     width: 200px;
     height: 50px;
     margin-bottom: 10px;
@@ -131,7 +108,7 @@
     border-color: #ffb400;
     background-color: #ffb400;
     color: #fff;
-}
+} */
 
 
 
